@@ -31,7 +31,7 @@ public class Main {
                     //System.out.println(distance.toString());
                     return distance;
                 } else {
-                    throw new IncorrectFormat(str);
+                    throw new IncorrectFormat("Неверный формат строки: " + str);
                 }
             } catch (IncorrectFormat e) {
                 throw new RuntimeException(e);
