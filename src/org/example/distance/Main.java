@@ -18,7 +18,7 @@ public class Main {
     private static final Pattern pattern = Pattern.compile("^\\(x:(-?\\d+),y:(-?\\d+)\\)-\\(x:(-?\\d+),y:(-?\\d+)\\)");
 
     // (x:1,y:5)-(x:2,y:6)
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
 
         Function<String, Double> calculateDistance = str -> {
             try {
